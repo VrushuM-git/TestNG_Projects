@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Multiple_classes.ForthClass">
+        <methods>
+          <include name="afterTest"/>
+          <include name="launchingBrowser"/>
+          <include name="Review"/>
+        </methods>
+      </class> <!-- Multiple_classes.ForthClass -->
+      <class name="Multiple_classes.ClassOne">
+        <methods>
+          <include name="afterTest"/>
+          <include name="launchingBrowser"/>
+        </methods>
+      </class> <!-- Multiple_classes.ClassOne -->
+      <class name="Multiple_classes.ClassThree">
+        <methods>
+          <include name="afterTest"/>
+          <include name="launchingBrowser"/>
+        </methods>
+      </class> <!-- Multiple_classes.ClassThree -->
+      <class name="Multiple_classes.ClassTwo">
+        <methods>
+          <include name="afterTest"/>
+          <include name="launchingBrowser"/>
+        </methods>
+      </class> <!-- Multiple_classes.ClassTwo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
